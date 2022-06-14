@@ -5,6 +5,6 @@ services:
         ports:
             - 5432:5432
         environment:
-            POSTGRES_USER: __test_user__
-            POSTGRES_PASSWORD: __test_password__
-            POSTGRES_DB: __test_db__
+            POSTGRES_USER: postgres
+            POSTGRES_PASSWORD: 1234
+            POSTGRES_DB: nestjs
